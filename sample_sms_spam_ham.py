@@ -21,4 +21,4 @@ for _,row in df.iterrows():
 new_df = pd.DataFrame(train)
 
 print(len(new_df))
-new_df.to_csv('./sms_spam_ham_sample.csv')
+new_df.to_csv('./sms_spam_ham_sample.csv', index=None)
